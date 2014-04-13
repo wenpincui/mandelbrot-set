@@ -1,0 +1,56 @@
+* Mandelbrot Set implementation
+
+This is a mandelbrot set visiualization program written in common
+lisp. It's an example from Mark A.Brown's tutorial with slight
+modification. The original tutorial can be found [[http://blog.lowsnr.net/2012/12/14/getting-started-with-common-lisp-part-1/][here]].
+
+** Examples
+#+BEGIN_SRC lisp
+   (ql:quickload :mandelbrot-set)
+   (mandelbrot-set:plot-mandelbrot 40)
+#+END_SRC
+result to
+#+BEGIN_EXAMPLE
+
+
+
+                           *
+                          ***
+                         ****
+                          ***
+                         *****
+                   *  **********
+                   *****************
+                   ****************
+                 *******************
+                 *******************
+                **********************
+                *********************
+       *****    **********************
+       ******* **********************
+      *******************************
+      *******************************
+   *********************************
+   *********************************
+      *******************************
+      *******************************
+       ******* **********************
+       *****    **********************
+                *********************
+                **********************
+                 *******************
+                 *******************
+                   ****************
+                   *****************
+                   *  **********
+                         *****
+                          ***
+                         ****
+                          ***
+                           *
+
+
+
+NIL
+
+#+END_EXAMPLE
