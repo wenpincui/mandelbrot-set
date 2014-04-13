@@ -1,4 +1,4 @@
-;;;; mandelbrot-set.lisp
+;;;; mandelbrot-set-png.lisp
 
 (in-package #:mandelbrot-set)
 
