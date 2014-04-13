@@ -5,6 +5,8 @@
   :description "mandelbrot-set implementation"
   :author "wenpin cui <wenpincui224@gmail.com>"
   :license "GPLv2"
+  :depends-on (:zpng)
   :components ((:file "package")
-               (:file "mandelbrot-set")))
+               (:file "mandelbrot-set")
+               (:file "mandelbrot-set-png" :depends-on ("mandelbrot-set"))))
 

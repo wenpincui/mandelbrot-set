@@ -1,8 +1,9 @@
 ;;;; package.lisp
 
 (defpackage #:mandelbrot-set
-  (:use #:cl)
+  (:use #:cl #:zpng)
   (:export #:+max-iterations+
            #:plot-mandelbrot
-           #:compute-mandelbrot-set))
+           #:compute-mandelbrot-set
+           #:write-png-file))
 
